@@ -18,9 +18,9 @@
 ---
 ## Запуск в приложения
 
-chmod +x release/*.AppImage
+```chmod +x release/*.AppImage
 ./release/*.AppImage
-
+```
 ## Запуск в dev
 
 Требуется **Node.js 22+**.
