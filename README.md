@@ -33,42 +33,6 @@
 chmod +x release/*.AppImage
 ./release/*.AppImage
 ```
-## Запуск в dev
-
-Требуется **Node.js 22+**.
-
-```bash
-npm install
-npm run dev
-```
-
-Если Electron не запускается и пишет `Missing X server or $DISPLAY`, значит вы в headless‑сессии (без GUI).
-Запускайте из графической среды Astra или через `xvfb-run`.
-
----
-
-## Сборка portable
-
-### Linux / Astra (AppImage)
-
-Сборку AppImage лучше делать **на Linux** (на самой Astra или в VM/WSL2 Debian/Ubuntu).
-
-```bash
-npm install
-npm run build
-npm run pack:linux
-```
-
-Результат будет в `release/`.
-
-Запуск:
-
-```bash
-chmod +x release/*.AppImage
-./release/*.AppImage
-```
-
----
 
 ## Vault / пароли
 
