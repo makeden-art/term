@@ -1,6 +1,6 @@
 # DMTerm
 
-Небольшой “mobaXterm‑like” клиент под Linux: **SSH вкладки + SFTP панель**, рассчитан на Astra/Debian‑окружение.
+Небольшой клиент под Linux: **SSH вкладки + SFTP панель**, рассчитан на Astra/Debian‑окружение.
 
 ### Что умеет
 
@@ -66,14 +66,6 @@ npm run pack:linux
 ```bash
 chmod +x release/*.AppImage
 ./release/*.AppImage
-```
-
-### Windows (portable exe)
-
-```bash
-npm install
-npm run build
-npm run pack:win
 ```
 
 ---
